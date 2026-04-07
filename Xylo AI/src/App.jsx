@@ -3,7 +3,7 @@ import SideBar from './components/Sidebar/SideBar'
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='bg-black text-white'>
       <SideBar/>
     </div>
   )

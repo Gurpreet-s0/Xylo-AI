@@ -7,7 +7,10 @@ const SideBar = () => {
   return (
     <div className='h-screen w-1/4'>
       <Logo/>
+      <div className='border-white border-[1px] opacity-10'></div>
       <NewChatBtn/>
+      <div className='border-white border-[1px] opacity-10'></div>
+
       <ChatHistory/>
     </div>
   )
