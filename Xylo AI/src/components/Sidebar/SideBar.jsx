@@ -3,7 +3,7 @@ import Logo from './Logo'
 import NewChatBtn from './NewChatBtn'
 import ChatHistory from './ChatHistory'
 
-const SideBar = () => {
+const SideBar = ({ onNewChat }) => {
   return (
     <div className='h-screen w-72 bg-slate-950/95 border-r border-slate-800/80 flex flex-col'>
       <div className='px-4 py-4'>
@@ -11,7 +11,7 @@ const SideBar = () => {
       </div>
       <div className='border-t border-slate-800/80' />
       <div className='px-4 py-4'>
-        <NewChatBtn />
+        <NewChatBtn onClick={onNewChat} />
       </div>
       <div className='border-t border-slate-800/80' />
       <div className='flex-1 overflow-y-auto px-3 py-4'>
