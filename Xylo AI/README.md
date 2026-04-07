@@ -1,16 +1,31 @@
-# React + Vite
+🌱 Xylo AI – Smart Farming Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Xylo AI is an intelligent farming assistant that helps farmers make better decisions using AI.
+Farmers can chat with the system and get guidance on crops, diseases, soil, and weather conditions.
 
-Currently, two official plugins are available:
+⸻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+	•	💬 Chat with AI for farming advice
+	•	🌾 Crop recommendations based on conditions
+	•	🦠 Disease detection guidance
+	•	🌦️ Weather-based suggestions
+	•	⚡ Fast and responsive UI
+	•	🤖 Powered by local AI models
 
-## React Compiler
+⸻
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧠 Tech Stack
 
-## Expanding the ESLint configuration
+Frontend
+	•	⚛️ React (Vite)
+	•	🎨 Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend
+	•	🟢 Node.js
+	•	🚀 Express.js
+
+AI & Tools
+	•	🧠 AnythingLLM
+	•	🦙 Ollama
+	•	🤖 Qwen3 Model
